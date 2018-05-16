@@ -23,8 +23,9 @@ function inc(n) {
   return n;
 }
 
-it('dec(n) decrements n and returns the result', function() {
-  return (a - 1)
+function dec(n)() {
+  n = n - 1;
+  return n;
 }
 
 function makeInt(n) {
