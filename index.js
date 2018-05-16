@@ -1,5 +1,5 @@
 function add(a, b) {
-    n = a - b;
+    n = a + b;
     return n;
 };
 
@@ -21,33 +21,17 @@ function divide (a, b) {
 function inc(n) {
   n = n + 1;
   return n;
-}
+};
 
 function dec(n)() {
   n = n - 1;
   return n;
-}
+};
 
 function makeInt(n) {
-  function() {
-    return (makeInt(a.toString())).toEqual(a)
-  }
-
-   function() {
-     return makeInt('0x2328')).toEqual(0)
-  }
-
-function makeInt() {
-      makeInt('sldkjflksjf')
-  }
-}
+  return parseInt(n, 10);
+};
 
 function preserveDecimal(n) {
-  function() {
-    preserveDecimal('2.222')).toBe(2.222)
-  }
-
-  function isNaN() {
-    (preserveDecimal('sldkjflksjf')
-  }
-}
+  return parseFloat(n);
+};
